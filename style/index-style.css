@@ -1,0 +1,63 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: #CAC0B6;
+}
+
+.index-background {
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('../assets/images/main-image-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: 840px;
+    width: 100%;
+
+    margin-bottom: 150px;
+}
+
+.background-part {
+    align-self: center;
+}
+
+.background-logo-image {
+    height: 520px;
+    width: 520px;
+}
+
+.site-part {
+    margin-bottom: 120px;
+}
+
+.site-part-footer {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 980px) {
+
+    .index-background {
+        height: 720px;
+    }
+
+    .background-logo-image {
+        height: 350px;
+        width: 350px;
+
+        margin-top: 150px;
+    }
+
+
+}
+

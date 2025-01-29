@@ -1,0 +1,38 @@
+.site-part-subscribe {
+    background-color: #252022;
+    text-align: center;
+    color: #CAC0B6;
+    padding: 100px 0 100px 0;
+}
+
+.subscribe-title-text {
+    font-size: 50px;
+    margin: 0;
+}
+
+.subscribe-paragraph-text {
+    font-size: 25px;
+    padding: 0 150px 0 150px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+    .site-part-subscribe {
+        padding: 50px 0 50px 0;
+    }
+
+    .subscribe-title {
+        margin-bottom: 50px;
+    }
+
+    .subscribe-title-text {
+        font-size: 25px;
+    }
+
+    .subscribe-paragraph-text {
+        font-size: 15px;
+        padding: 0 50px 0 50px;
+    }
+
+}
